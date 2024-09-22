@@ -1,0 +1,37 @@
+{
+  "datasets": {
+    "CVA":{
+      "size": [70, 70],
+      "data_size":10000,
+      "volume_size":500,
+      "max_velocity":4500,
+      "min_velocity":1500
+    },
+    "CFA":{
+      "size": [70, 70],
+      "data_size":10000,
+      "volume_size":500,
+      "max_velocity":4500,
+      "min_velocity":1500
+    },
+    "FFA":{
+      "size": [70, 70],
+      "data_size":10000,
+      "volume_size":500,
+      "max_velocity":4500,
+      "min_velocity":1500
+    },
+    "M20":{
+      "size": [128, 128],
+      "data_size": 20,
+      "volume_size": 20,
+      "max_velocity":4500,
+      "min_velocity":1500
+    }
+  },
+  "net_param":{
+    "new_size": [64, 64],
+    "data_list_path": ".\\configuration\\datalist.txt",
+    "training_strategy": "Vel_Fault"
+  }
+}
