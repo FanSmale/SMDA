@@ -1,4 +1,4 @@
-# Global information storage 
+# Stored in configuration information
 ---------------------------- 
 
 config.json: Dataset parameter information
